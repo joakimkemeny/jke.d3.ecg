@@ -1,0 +1,33 @@
+$jke-ecgChart-axisColor: #ddd !default;
+$jke-ecgChart-backgroundColor: #fff !default;
+$jke-ecgChart-gridColor: #ddd !default;
+$jke-ecgChart-lineColor: #f4771b !default;
+
+.jke-ecgChart-background {
+	fill: $jke-ecgChart-backgroundColor;
+	shape-rendering: crispEdges;
+}
+
+.jke-ecgChart-axis {
+	line, path {
+		fill: none;
+		shape-rendering: crispEdges;
+		stroke: $jke-ecgChart-axisColor;
+		stroke-width: 1px;
+	}
+}
+
+.jke-ecgChart-grid {
+	line {
+		fill: none;
+		shape-rendering: crispEdges;
+		stroke: $jke-ecgChart-gridColor;
+		stroke-width: 1px;
+	}
+}
+
+.jke-ecgChart-line {
+	fill: none;
+	stroke: $jke-ecgChart-lineColor;
+	stroke-width: 2px;
+}
