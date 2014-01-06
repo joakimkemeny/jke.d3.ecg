@@ -5,10 +5,16 @@
 	"keywords": ["d3", "ecg"],
 
 	"main": [
-		"dist/jke-d3-ecg.min.js", "dist/jke-d3-ecg.css"
+		"dist/jke-d3-ecg.min.js",
+		"dist/jke-d3-ecg.css"
 	],
 	"ignore": [
-		"**/.*", "bower_components", "demo", "node_modules", "Gruntfile.js", "package.json"
+		"**/.*",
+		"bower_components",
+		"demo",
+		"node_modules",
+		"Gruntfile.js",
+		"package.json"
 	],
 
 	"dependencies": {

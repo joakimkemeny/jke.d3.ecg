@@ -88,6 +88,10 @@ module.exports = function (grunt) {
 				files: ['Gruntfile.js', 'src/scss/**/*.scss'],
 				tasks: ['compass']
 			},
+			uglify: {
+				files: ['Gruntfile.js', 'src/js/**/*.js'],
+				tasks: ['uglify']
+			},
 			copy: {
 				files: ['Gruntfile.js', 'src/**'],
 				tasks: ['copy']
@@ -95,10 +99,6 @@ module.exports = function (grunt) {
 			jshint: {
 				files: ['Gruntfile.js', 'src/js/**/*.js'],
 				tasks: ['jshint']
-			},
-			uglify: {
-				files: ['Gruntfile.js', 'src/js/**/*.js'],
-				tasks: ['uglify']
 			}
 		}
 	});

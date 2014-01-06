@@ -1,6 +1,7 @@
 $jke-ecgChart-axisColor: #ddd !default;
 $jke-ecgChart-backgroundColor: #fff !default;
-$jke-ecgChart-gridColor: #ddd !default;
+$jke-ecgChart-xGridColor: #ddd !default;
+$jke-ecgChart-yGridColor: #ddd !default;
 $jke-ecgChart-lineColor: #f4771b !default;
 
 .jke-ecgChart-background {
@@ -8,7 +9,7 @@ $jke-ecgChart-lineColor: #f4771b !default;
 	shape-rendering: crispEdges;
 }
 
-.jke-ecgChart-axis {
+.jke-ecgChart-axis-x {
 	line, path {
 		fill: none;
 		shape-rendering: crispEdges;
@@ -17,11 +18,29 @@ $jke-ecgChart-lineColor: #f4771b !default;
 	}
 }
 
-.jke-ecgChart-grid {
-	line {
+.jke-ecgChart-axis-y {
+	line, path {
 		fill: none;
 		shape-rendering: crispEdges;
-		stroke: $jke-ecgChart-gridColor;
+		stroke: $jke-ecgChart-axisColor;
+		stroke-width: 1px;
+	}
+}
+
+.jke-ecgChart-grid-x {
+	line, path {
+		fill: none;
+		shape-rendering: crispEdges;
+		stroke: $jke-ecgChart-xGridColor;
+		stroke-width: 1px;
+	}
+}
+
+.jke-ecgChart-grid-y {
+	line, path {
+		fill: none;
+		shape-rendering: crispEdges;
+		stroke: $jke-ecgChart-yGridColor;
 		stroke-width: 1px;
 	}
 }
@@ -29,5 +48,5 @@ $jke-ecgChart-lineColor: #f4771b !default;
 .jke-ecgChart-line {
 	fill: none;
 	stroke: $jke-ecgChart-lineColor;
-	stroke-width: 2px;
+	stroke-width: 3px;
 }
