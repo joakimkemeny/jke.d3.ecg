@@ -26,7 +26,7 @@ The second step is to include all dependencies in your HTML and initialize the c
 <body>
 
 	<!-- Placeholder for the chart -->
-	<div class="jke-chartChart"></div>
+	<div class="jke-ecgChart"></div>
 
 	<!-- Include dependencies -->
 	<script src="bower_components/jquery/jquery.min.js"></script>
