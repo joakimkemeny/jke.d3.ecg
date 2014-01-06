@@ -118,9 +118,9 @@ $jke-ecgChart-lineColor: #f4771b;
 
 ## Known issues
 
-* The curve is not timed correctly, this is probably due to `setInterval`.
-* It should look nicer.
-* All options are fixed.
+* The curve is not prefectly timed. _This is probably a test data issue since `setInterval` is not that reliable._
+* The curve should look much nicer and the old curve should fade out.
+* All options are fixed and cannot be changed after initialization.
 
 ## Contact
 
