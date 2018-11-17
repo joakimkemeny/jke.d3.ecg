@@ -1,3 +1,7 @@
+### _This repository is deprecated and archived_
+
+---
+
 # jke-d3-ecg
 
 This is an ECG chart component built on top of [D3.js](http://d3js.org) and it was built to be used as part of two presentations ([Rethink your frontend architecture](https://github.com/joakimkemeny/presentation.frontend) and
